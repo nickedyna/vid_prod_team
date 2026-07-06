@@ -1,0 +1,64 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AI Video Production Job",
+  "type": "object",
+  "required": ["shortScript", "longScript", "thumbnail", "captions", "videoPlan", "musicSuggestion", "metadata"],
+  "properties": {
+    "shortScript": {"type": "string", "minLength": 50},
+    "longScript": {"type": "string", "minLength": 200},
+    "thumbnail": {
+      "type": "object",
+      "required": ["headline", "subhead", "cta"],
+      "properties": {
+        "headline": {"type": "string"},
+        "subhead": {"type": "string"},
+        "cta": {"type": "string"}
+      }
+    },
+    "captions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["timeStart", "timeEnd", "text"],
+        "properties": {
+          "timeStart": {"type": "string"},
+          "timeEnd": {"type": "string"},
+          "text": {"type": "string"}
+        }
+      }
+    },
+    "videoPlan": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["clip", "duration", "overlayText"],
+        "properties": {
+          "clip": {"type": "string"},
+          "duration": {"type": "number", "exclusiveMinimum": 0},
+          "overlayText": {"type": "string"},
+          "motion": {"type": "string"},
+          "transition": {"type": "string"}
+        }
+      }
+    },
+    "musicSuggestion": {
+      "type": "object",
+      "required": ["mood", "volume", "styleNotes"],
+      "properties": {
+        "mood": {"type": "string"},
+        "volume": {"type": "string"},
+        "styleNotes": {"type": "string"}
+      }
+    },
+    "metadata": {
+      "type": "object",
+      "required": ["title", "description", "tags", "pinnedComment"],
+      "properties": {
+        "title": {"type": "string"},
+        "description": {"type": "string"},
+        "tags": {"type": "array", "items": {"type": "string"}},
+        "pinnedComment": {"type": "string"}
+      }
+    }
+  }
+}
