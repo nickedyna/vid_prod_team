@@ -1,0 +1,41 @@
+{
+  "shorts": {
+    "label": "YouTube Shorts / TikTok / Reels",
+    "resolution": "1080x1920",
+    "aspectRatio": "9:16",
+    "format": "MP4",
+    "fps": "30 or source-matched",
+    "audioCodec": "AAC",
+    "notes": [
+      "Keep captions in bottom safe zone.",
+      "Voice must sit clearly above music.",
+      "Use strong first-frame hook text."
+    ]
+  },
+  "longForm": {
+    "label": "YouTube Long Form",
+    "resolution": "1920x1080",
+    "aspectRatio": "16:9",
+    "format": "MP4",
+    "fps": "30 or source-matched",
+    "audioCodec": "AAC",
+    "notes": [
+      "Use chapter cards.",
+      "Keep intro tight.",
+      "Use screen recordings and talking-head sections for credibility."
+    ]
+  },
+  "linkedin": {
+    "label": "LinkedIn Vertical or Square",
+    "resolution": "1080x1350 or 1080x1920",
+    "aspectRatio": "4:5 or 9:16",
+    "format": "MP4",
+    "fps": "30 or source-matched",
+    "audioCodec": "AAC",
+    "notes": [
+      "Lead with professional pain point.",
+      "Use fewer flashy transitions.",
+      "Keep captions clean and readable."
+    ]
+  }
+}
