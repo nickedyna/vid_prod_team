@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+.env
+.env.*
+
+# Outputs
+output/shorts/*.mp4
+output/longform/*.mp4
+output/thumbnails/*.png
+output/captions/*.srt
+output/logs/*.log
+
+# Large media assets should be local or stored with Git LFS/cloud storage
+assets/broll/*.mp4
+assets/music/*.mp3
+assets/music/*.wav
+assets/voiceover/*.mp3
+assets/voiceover/*.wav
+assets/avatar/*.png
+assets/avatar/*.jpg
+assets/avatar/*.webp
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
