@@ -71,8 +71,16 @@ python -m venv .venv
 source .venv/bin/activate
 
 pip install -r requirements.txt
-python scripts/run_job.py --job jobs/brief-to-zip_01.json --mode preview
+python scripts/run_job.py --job jobs/intro-video_01.json --mode preview --platform shorts
 ```
+
+After recording the voiceover:
+
+```bash
+python scripts/run_job.py --job jobs/intro-video_01.json --mode full --platform shorts --voiceover assets/voiceover/intro-video_01_voiceover.wav
+```
+
+Each run produces a CapCut-ready review package in `output/review/<job-name>/` with the draft Short, thumbnail, captions, metadata, production notes, CapCut edit plan, import manifest, and a `capcut_import/` folder.
 
 ## Human-in-the-loop workflow
 
