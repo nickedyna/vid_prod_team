@@ -1,0 +1,54 @@
+{
+  "jobName": "roadmap-2026_01",
+  "brand": "Nat O’Farril / AI Email Dev",
+  "slogan": "Learn AI. Build proof. Grow your value.",
+  "productionMode": "faceless",
+  "talkingHeadAsset": "assets/talking_head/nat_intro_01.mp4",
+  "visualStyle": "brief_to_zip_flow_map",
+  "fallbackVisualStyle": "enterprise_grid_pulse",
+  "voiceover": "assets/voiceover/roadmap-2026_01_voiceover.wav",
+  "shortScript": "If you’re trying to break into enterprise marketing, stop only watching AI videos. Build something that proves you can actually help a team move faster. Most enterprise email teams are buried in the same cycle. Brief comes in. Copy is unclear. HTML has to be built. QA gets rushed. Then everyone waits on revisions. So I’m building my own AI email development workflow. The goal is simple: take a campaign brief, run it through an AI agent, generate the copy, apply it to one of my custom HTML templates, create the QA checklist, and package the whole thing into a ZIP. This is why email development is such an overlooked path into enterprise tech. You are not just learning how to code an email. You are learning marketing operations, automation, personalization, QA, AI workflows, and how real companies get campaigns out the door. That skill stack can change your career. I’m still working in corporate, and I’m building this in public. Not because I have everything figured out. Because I know this lane is bigger than people think. And I’m going to keep building, testing, documenting, and bringing people with me. If you’re stuck, trying to break in, fresh out of school, switching from blue collar, or already in marketing but ready to become more technical, start here. Learn AI. Build proof. Grow your value. Subscribe if you want to become the AI-powered email developer companies cannot ignore.",
+  "longScript": "SECTION 1 — HOOK (0:00–0:03)\nIf you’re trying to break into enterprise marketing, stop only watching AI videos. Build something that proves you can actually help a team move faster.\nVisual: Fast screen recording montage — messy campaign brief, email template, ChatGPT, ZIP folder.\nOn-screen text: Stop watching. Start building proof.\n\nSECTION 2 — PROBLEM (0:04–0:10)\nMost enterprise email teams are buried in the same cycle. Brief comes in. Copy is unclear. HTML has to be built. QA gets rushed. Then everyone waits on revisions.\nVisual: Folder chaos, notes, email preview, QA checklist.\nOn-screen text: The old workflow is slow.\n\nSECTION 3 — YOUR SOLUTION (0:11–0:22)\nSo I’m building my own AI email development workflow. The goal is simple: take a campaign brief, run it through an AI agent, generate the copy, apply it to one of my custom HTML templates, create the QA checklist, and package the whole thing into a ZIP.\nVisual: Agent/ChatGPT prompt, the generator, HTML output, ZIP files.\nOn-screen text: Brief → Agent → HTML → QA → ZIP\n\nSECTION 4 — CAREER ANGLE (0:23–0:35)\nThis is why email development is such an overlooked path into enterprise tech. You are not just learning how to code an email. You are learning marketing operations, automation, personalization, QA, AI workflows, and how real companies get campaigns out the door. That skill stack can change your career.\nVisual: Roadmap graphic — HTML Email → QA → Automation → AI Workflow → Enterprise Role.\nOn-screen text: Email Dev = Enterprise Skill Stack\n\nSECTION 5 — PERSONAL BRAND / JOURNEY (0:36–0:48)\nI’m still working in corporate, and I’m building this in public. Not because I have everything figured out. Because I know this lane is bigger than people think. And I’m going to keep building, testing, documenting, and bringing people with me.\nVisual: Desk shot, laptop, avatar, CapCut timeline, GitHub/Copilot clips.\nOn-screen text: Building in public.\n\nSECTION 6 — CTA (0:49–1:00)\nIf you’re stuck, trying to break in, fresh out of school, switching from blue collar, or already in marketing but ready to become more technical… start here. Learn AI. Build proof. Grow your value. Subscribe if you want to become the AI-powered email developer companies cannot ignore.\nVisual: Avatar + subscribe animation + quick preview of next demo.\nOn-screen text: Learn AI. Build proof. Grow your value.",
+  "thumbnail": {
+    "headline": "AI EMAIL DEVELOPER ROADMAP 2026",
+    "subhead": "THE OVERLOOKED PATH INTO ENTERPRISE TECH",
+    "cta": "Build Proof"
+  },
+  "captions": [
+    {"timeStart": "0:00", "timeEnd": "0:03", "text": "Stop only watching AI videos. Build proof."},
+    {"timeStart": "0:03", "timeEnd": "0:07", "text": "Enterprise email teams are buried in the same cycle."},
+    {"timeStart": "0:07", "timeEnd": "0:10", "text": "Unclear copy. Rushed QA. Endless revisions."},
+    {"timeStart": "0:10", "timeEnd": "0:16", "text": "So I’m building my own AI email development workflow."},
+    {"timeStart": "0:16", "timeEnd": "0:22", "text": "Brief → Agent → HTML → QA → ZIP"},
+    {"timeStart": "0:22", "timeEnd": "0:29", "text": "Email development is an overlooked path into enterprise tech."},
+    {"timeStart": "0:29", "timeEnd": "0:35", "text": "Marketing ops. Automation. QA. AI workflows. That stack changes careers."},
+    {"timeStart": "0:35", "timeEnd": "0:42", "text": "Still working in corporate. Building this in public."},
+    {"timeStart": "0:42", "timeEnd": "0:48", "text": "Building, testing, documenting — and bringing people with me."},
+    {"timeStart": "0:48", "timeEnd": "0:54", "text": "Stuck? Breaking in? Switching careers? Start here."},
+    {"timeStart": "0:54", "timeEnd": "1:00", "text": "Learn AI. Build proof. Grow your value. Subscribe."}
+  ],
+  "videoPlan": [
+    {"clip": "broll/workflow_montage_fast.mp4", "duration": 3, "overlayText": "Stop watching. Start building proof.", "motion": "fast cuts montage", "transition": "quick cut"},
+    {"clip": "broll/folder_chaos_scroll.mp4", "duration": 4, "overlayText": "The old workflow is slow.", "motion": "messy folder scroll", "transition": "quick cut"},
+    {"clip": "broll/qa_checklist_scroll.mp4", "duration": 3, "overlayText": "Rushed QA. Endless revisions.", "motion": "checklist scroll", "transition": "swipe left"},
+    {"clip": "broll/chatgpt_agent_prompt.mp4", "duration": 6, "overlayText": "Brief → AI Agent", "motion": "typing highlight", "transition": "quick cut"},
+    {"clip": "broll/template_generator_output.mp4", "duration": 3, "overlayText": "Custom HTML Templates", "motion": "zoom to generated email", "transition": "slide up"},
+    {"clip": "broll/zip_package_folder.mp4", "duration": 3, "overlayText": "QA Checklist → ZIP", "motion": "folder open zoom", "transition": "impact cut"},
+    {"clip": "broll/roadmap_skill_stack.mp4", "duration": 13, "overlayText": "Email Dev = Enterprise Skill Stack", "motion": "roadmap graphic reveal: HTML Email → QA → Automation → AI Workflow → Enterprise Role", "transition": "fade"},
+    {"clip": "broll/corporate_desk_setup.mp4", "duration": 7, "overlayText": "Building in public.", "motion": "slow cinematic push", "transition": "quick cut"},
+    {"clip": "broll/github_copilot_editing.mp4", "duration": 6, "overlayText": "Building. Testing. Documenting.", "motion": "code editing scroll", "transition": "fade"},
+    {"clip": "motion/backgrounds/brief_to_zip_flow_map.mp4", "duration": 7, "overlayText": "Learn AI. Build proof. Grow your value.", "motion": "animated flow map", "transition": "fade to end card"},
+    {"clip": "broll/subscribe_end_card.mp4", "duration": 5, "overlayText": "Become the AI-powered email developer companies cannot ignore", "motion": "subscribe button pulse + next demo preview", "transition": "end"}
+  ],
+  "musicSuggestion": {
+    "mood": "clean corporate tech",
+    "volume": "voiceover at 100%, music bed at 10% to 18%, duck music under voice",
+    "styleNotes": "Clean corporate tech background music. Voice must be primary. If no licensed track is available, render without music; do not fail the build."
+  },
+  "metadata": {
+    "title": "AI Email Developer Roadmap 2026: The Overlooked Path Into Enterprise Tech",
+    "description": "Stop only watching AI videos — build something that proves you can help a team move faster.\n\nIn this video I break down the AI Email Developer roadmap for 2026: why enterprise email teams are stuck in a slow brief-to-revision cycle, the Brief-to-ZIP AI workflow I’m building to fix it, and why email development is one of the most overlooked paths into enterprise tech.\n\nThe skill stack: HTML email, QA, personalization, marketing automation, AI workflows, and the production systems real companies use to ship campaigns.\n\nI’m Nat O’Farril. I work in enterprise marketing and I’m building this in public while still working in corporate.\n\nLearn AI. Build proof. Grow your value.\n\nSubscribe if you want to become the AI-powered email developer companies cannot ignore.",
+    "tags": ["AI Email Developer", "Email Development", "Enterprise Marketing", "Marketing Automation", "HTML Email", "Proof of Work", "Career Change", "ChatGPT", "GitHub Copilot", "AI Workflow", "Roadmap 2026", "Faceless YouTube", "Marketing Cloud", "Email Marketing", "Campaign Analyst", "Technical Marketing"],
+    "pinnedComment": "This is the 2026 roadmap I’m building in public: AI-powered email development, enterprise marketing workflows, and proof-of-work projects. Where are you starting from — breaking in, already in email, or learning AI from scratch?"
+  }
+}

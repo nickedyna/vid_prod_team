@@ -1,0 +1,43 @@
+1
+00:00:00,000 --> 00:00:03,000
+Stop only watching AI videos. Build proof.
+
+2
+00:00:03,000 --> 00:00:07,000
+Enterprise email teams are buried in the same cycle.
+
+3
+00:00:07,000 --> 00:00:10,000
+Unclear copy. Rushed QA. Endless revisions.
+
+4
+00:00:10,000 --> 00:00:16,000
+So I’m building my own AI email development workflow.
+
+5
+00:00:16,000 --> 00:00:22,000
+Brief → Agent → HTML → QA → ZIP
+
+6
+00:00:22,000 --> 00:00:29,000
+Email development is an overlooked path into enterprise tech.
+
+7
+00:00:29,000 --> 00:00:35,000
+Marketing ops. Automation. QA. AI workflows. That stack changes careers.
+
+8
+00:00:35,000 --> 00:00:42,000
+Still working in corporate. Building this in public.
+
+9
+00:00:42,000 --> 00:00:48,000
+Building, testing, documenting — and bringing people with me.
+
+10
+00:00:48,000 --> 00:00:54,000
+Stuck? Breaking in? Switching careers? Start here.
+
+11
+00:00:54,000 --> 00:01:00,000
+Learn AI. Build proof. Grow your value. Subscribe.
