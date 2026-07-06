@@ -1,0 +1,68 @@
+{
+  "brand": "AI Email Dev",
+  "defaultSlogan": "Learn AI. Build proof. Grow your value.",
+  "defaultCta": "Subscribe if you want to become the AI-powered email developer companies cannot ignore.",
+  "colors": {
+    "navy": "#09122D",
+    "deepTeal": "#135D66",
+    "electricBlue": "#3B82F6",
+    "amber": "#FFB950",
+    "white": "#F5F8FF",
+    "mutedBlueGray": "#B4CBDC"
+  },
+  "motionPresets": [
+    {
+      "id": "enterprise_grid_pulse",
+      "label": "Enterprise Grid Pulse",
+      "asset": "motion/backgrounds/enterprise_grid_pulse.mp4",
+      "bestFor": ["enterprise strategy", "career roadmap", "AI workflow"],
+      "description": "Dark navy grid, subtle teal pulse, corporate tech feel."
+    },
+    {
+      "id": "brief_to_zip_flow_map",
+      "label": "Brief-to-ZIP Flow Map",
+      "asset": "motion/backgrounds/brief_to_zip_flow_map.mp4",
+      "bestFor": ["proof of work", "automation demo", "agent workflow"],
+      "description": "Animated flow: Brief to AI Agent to HTML to QA to ZIP."
+    },
+    {
+      "id": "code_rain_lite",
+      "label": "Code Rain Lite",
+      "asset": "motion/backgrounds/code_rain_lite.mp4",
+      "bestFor": ["HTML email", "GitHub Copilot", "Cursor coding"],
+      "description": "Soft code snippets moving slowly behind captions."
+    },
+    {
+      "id": "corporate_war_room",
+      "label": "Corporate War Room",
+      "asset": "motion/backgrounds/corporate_war_room.mp4",
+      "bestFor": ["enterprise marketing", "analytics", "campaign production"],
+      "description": "Dashboard wall, email previews, QA checks, high-stakes corporate energy."
+    },
+    {
+      "id": "talking_head_tech_frame",
+      "label": "Talking Head Tech Frame",
+      "asset": "motion/overlays/talking_head_tech_frame.mov",
+      "bestFor": ["talking head", "expert commentary", "course clip"],
+      "description": "Transparent tech frame overlay with lower third and subtle animated corners."
+    }
+  ],
+  "captionStyles": {
+    "bold_center_bottom": {
+      "fontSize": 64,
+      "fontWeight": "bold",
+      "position": "bottom_safe_zone",
+      "textColor": "#F5F8FF",
+      "highlightColor": "#FFB950",
+      "background": "semi_transparent_navy"
+    },
+    "tech_lower_third": {
+      "fontSize": 48,
+      "fontWeight": "bold",
+      "position": "lower_third",
+      "textColor": "#F5F8FF",
+      "highlightColor": "#3B82F6",
+      "background": "teal_panel"
+    }
+  }
+}
