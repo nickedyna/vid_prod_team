@@ -1,0 +1,173 @@
+{
+  "job": "senioto-longform_01",
+  "platform": "longForm",
+  "productionMode": "hybrid",
+  "exportPreset": {
+    "resolution": "1920x1080",
+    "aspectRatio": "16:9",
+    "format": "MP4",
+    "fps": 30,
+    "audioCodec": "AAC"
+  },
+  "importFiles": [
+    {
+      "file": "01_draft_short.mp4",
+      "role": "base timeline video",
+      "status": "ready"
+    },
+    {
+      "file": "02_voiceover.wav",
+      "role": "primary voiceover",
+      "status": "missing — record and re-run full mode"
+    },
+    {
+      "file": "03_music.mp3",
+      "role": "music bed at 10-18%",
+      "status": "optional — add royalty-free corporate tech track"
+    },
+    {
+      "file": "04_captions.srt",
+      "role": "editable captions",
+      "status": "ready"
+    },
+    {
+      "file": "05_thumbnail.jpg",
+      "role": "thumbnail reference",
+      "status": "ready"
+    }
+  ],
+  "missingAssets": [
+    {
+      "path": "assets/talking_head/nat_intro_01.mp4",
+      "status": "placeholder",
+      "howToCreate": "Film hook takes: chest-up, dark backdrop, key light, direct eye contact."
+    },
+    {
+      "path": "assets/broll/chatgpt_agent_prompt.mp4",
+      "status": "placeholder",
+      "howToCreate": "Screen record typing a campaign brief prompt into ChatGPT and the response streaming."
+    },
+    {
+      "path": "assets/broll/workflow_montage_fast.mp4",
+      "status": "placeholder",
+      "howToCreate": "Fast montage: brief → ChatGPT → template → ZIP, quick cuts."
+    },
+    {
+      "path": "assets/motion/chapter_cards/ch02_who_this_is_for.mp4",
+      "status": "placeholder",
+      "howToCreate": "Chapter card: number + short title, midnight blue bg, teal underline sweep (build once in CapCut, duplicate)."
+    },
+    {
+      "path": "assets/talking_head/nat_main_01.mp4",
+      "status": "placeholder",
+      "howToCreate": "Film bridging lines for mid sections (read from longform_script.md)."
+    },
+    {
+      "path": "assets/broll/job_board_scroll.mp4",
+      "status": "placeholder",
+      "howToCreate": "Screen record scrolling a job board (LinkedIn/Indeed) filtered to enterprise marketing roles."
+    },
+    {
+      "path": "assets/motion/chapter_cards/ch03_proof_of_work.mp4",
+      "status": "placeholder",
+      "howToCreate": "Chapter card: number + short title, midnight blue bg, teal underline sweep (build once in CapCut, duplicate)."
+    },
+    {
+      "path": "assets/broll/zip_package_folder.mp4",
+      "status": "placeholder",
+      "howToCreate": "Screen record opening a ZIP/folder showing the full production package contents."
+    },
+    {
+      "path": "assets/broll/template_generator_output.mp4",
+      "status": "placeholder",
+      "howToCreate": "Screen record a generated HTML email rendering in a browser preview."
+    },
+    {
+      "path": "assets/motion/chapter_cards/ch04_ai_alone.mp4",
+      "status": "placeholder",
+      "howToCreate": "Chapter card: number + short title, midnight blue bg, teal underline sweep (build once in CapCut, duplicate)."
+    },
+    {
+      "path": "assets/motion/backgrounds/enterprise_grid_pulse.mp4",
+      "status": "placeholder",
+      "howToCreate": "Fallback background: dark navy grid with subtle teal pulse."
+    },
+    {
+      "path": "assets/motion/chapter_cards/ch05_framework.mp4",
+      "status": "placeholder",
+      "howToCreate": "Chapter card: number + short title, midnight blue bg, teal underline sweep (build once in CapCut, duplicate)."
+    },
+    {
+      "path": "assets/motion/backgrounds/senioto_framework_map.mp4",
+      "status": "placeholder",
+      "howToCreate": "Hero motion graphic: LEARN → BUILD → GROW three-node animation (Canva/CapCut/After Effects)."
+    },
+    {
+      "path": "assets/broll/github_copilot_editing.mp4",
+      "status": "placeholder",
+      "howToCreate": "Screen record GitHub Copilot or Cursor editing code, README scroll."
+    },
+    {
+      "path": "assets/motion/chapter_cards/ch06_brief_to_zip.mp4",
+      "status": "placeholder",
+      "howToCreate": "Chapter card: number + short title, midnight blue bg, teal underline sweep (build once in CapCut, duplicate)."
+    },
+    {
+      "path": "assets/motion/backgrounds/brief_to_zip_flow_map.mp4",
+      "status": "placeholder",
+      "howToCreate": "Animated flow map: Brief → AI Agent → HTML → QA → ZIP (make in Canva/After Effects/CapCut)."
+    },
+    {
+      "path": "assets/broll/campaign_brief_scroll.mp4",
+      "status": "placeholder",
+      "howToCreate": "Screen record scrolling a campaign brief document (Google Doc or Word)."
+    },
+    {
+      "path": "assets/broll/html_email_code.mp4",
+      "status": "placeholder",
+      "howToCreate": "Screen record HTML email code in VS Code or Cursor, slow scroll."
+    },
+    {
+      "path": "assets/broll/qa_checklist_scroll.mp4",
+      "status": "placeholder",
+      "howToCreate": "Screen record scrolling a QA checklist with checkmarks (Notion, Sheets, or Markdown)."
+    },
+    {
+      "path": "assets/motion/chapter_cards/ch07_start_from_zero.mp4",
+      "status": "placeholder",
+      "howToCreate": "Chapter card: number + short title, midnight blue bg, teal underline sweep (build once in CapCut, duplicate)."
+    },
+    {
+      "path": "assets/motion/chapter_cards/ch08_package_proof.mp4",
+      "status": "placeholder",
+      "howToCreate": "Chapter card: number + short title, midnight blue bg, teal underline sweep (build once in CapCut, duplicate)."
+    },
+    {
+      "path": "assets/motion/chapter_cards/ch09_whats_next.mp4",
+      "status": "placeholder",
+      "howToCreate": "Chapter card: number + short title, midnight blue bg, teal underline sweep (build once in CapCut, duplicate)."
+    },
+    {
+      "path": "assets/talking_head/nat_cta_01.mp4",
+      "status": "placeholder",
+      "howToCreate": "Film closing CTA, slower and direct to camera."
+    },
+    {
+      "path": "assets/motion/end_cards/subscribe_end_card.mp4",
+      "status": "placeholder",
+      "howToCreate": "Subscribe end card with button pulse and next-video preview slot (CapCut/Canva)."
+    },
+    {
+      "path": "assets/voiceover/senioto-longform_01_voiceover.wav",
+      "status": "missing",
+      "howToCreate": "Record the script as a WAV (quiet room, phone or USB mic is fine)."
+    },
+    {
+      "path": "assets/music/corporate_tech_pulse_01.mp3",
+      "status": "missing",
+      "howToCreate": "Download a royalty-free clean corporate tech track (YouTube Audio Library works). Optional: video renders without it."
+    }
+  ],
+  "editPlan": "capcut_edit_plan.md",
+  "notes": "Manual CapCut finishing only. No automated publishing or upload."
+}
