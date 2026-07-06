@@ -1,0 +1,108 @@
+{
+  "job": "intro-video_01",
+  "platform": "shorts",
+  "productionMode": "faceless",
+  "exportPreset": {
+    "resolution": "1080x1920",
+    "aspectRatio": "9:16",
+    "format": "MP4",
+    "fps": 30,
+    "audioCodec": "AAC"
+  },
+  "importFiles": [
+    {
+      "file": "01_draft_short.mp4",
+      "role": "base timeline video",
+      "status": "ready"
+    },
+    {
+      "file": "02_voiceover.wav",
+      "role": "primary voiceover",
+      "status": "missing — record and re-run full mode"
+    },
+    {
+      "file": "03_music.mp3",
+      "role": "music bed at 10-18%",
+      "status": "optional — add royalty-free corporate tech track"
+    },
+    {
+      "file": "04_captions.srt",
+      "role": "editable captions",
+      "status": "ready"
+    },
+    {
+      "file": "05_thumbnail.jpg",
+      "role": "thumbnail reference",
+      "status": "ready"
+    },
+    {
+      "file": "06_motion_background.mp4",
+      "role": "motion background",
+      "status": "ready"
+    }
+  ],
+  "missingAssets": [
+    {
+      "path": "assets/broll/job_board_scroll.mp4",
+      "status": "placeholder",
+      "howToCreate": "Screen record scrolling a job board (LinkedIn/Indeed) filtered to enterprise marketing roles."
+    },
+    {
+      "path": "assets/broll/campaign_brief_scroll.mp4",
+      "status": "placeholder",
+      "howToCreate": "Screen record scrolling a campaign brief document (Google Doc or Word)."
+    },
+    {
+      "path": "assets/broll/html_email_code.mp4",
+      "status": "placeholder",
+      "howToCreate": "Screen record HTML email code in VS Code or Cursor, slow scroll."
+    },
+    {
+      "path": "assets/broll/chatgpt_agent_prompt.mp4",
+      "status": "placeholder",
+      "howToCreate": "Screen record typing a campaign brief prompt into ChatGPT and the response streaming."
+    },
+    {
+      "path": "assets/broll/template_generator_output.mp4",
+      "status": "placeholder",
+      "howToCreate": "Screen record a generated HTML email rendering in a browser preview."
+    },
+    {
+      "path": "assets/broll/qa_checklist_scroll.mp4",
+      "status": "placeholder",
+      "howToCreate": "Screen record scrolling a QA checklist with checkmarks (Notion, Sheets, or Markdown)."
+    },
+    {
+      "path": "assets/broll/zip_package_folder.mp4",
+      "status": "placeholder",
+      "howToCreate": "Screen record opening a ZIP/folder showing the full production package contents."
+    },
+    {
+      "path": "assets/broll/corporate_desk_setup.mp4",
+      "status": "placeholder",
+      "howToCreate": "Film or record a clean desk setup with monitor showing email/campaign work."
+    },
+    {
+      "path": "assets/motion/backgrounds/brief_to_zip_flow_map.mp4",
+      "status": "placeholder",
+      "howToCreate": "Animated flow map: Brief → AI Agent → HTML → QA → ZIP (make in Canva/After Effects/CapCut)."
+    },
+    {
+      "path": "assets/broll/subscribe_end_card.mp4",
+      "status": "placeholder",
+      "howToCreate": "Branded end card with subscribe button animation (make in CapCut/Canva)."
+    },
+    {
+      "path": "assets/voiceover/intro-video_01_voiceover.wav",
+      "status": "missing",
+      "howToCreate": "Record the short script as a WAV (quiet room, phone or USB mic is fine)."
+    },
+    {
+      "path": "assets/music/corporate_tech_pulse_01.mp3",
+      "status": "missing",
+      "howToCreate": "Download a royalty-free clean corporate tech track (YouTube Audio Library works). Optional: video renders without it."
+    }
+  ],
+  "editPlan": "capcut_edit_plan.md",
+  "notes": "Manual CapCut finishing only. No automated publishing or upload."
+}

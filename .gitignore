@@ -11,11 +11,22 @@ venv/
 output/shorts/*.mp4
 output/longform/*.mp4
 output/thumbnails/*.png
+output/thumbnails/*.jpg
 output/captions/*.srt
 output/logs/*.log
+output/tmp/
+output/review/**/*.mp4
+output/review/**/*.wav
+output/review/**/*.mp3
+output/review/**/*.jpg
 
 # Large media assets should be local or stored with Git LFS/cloud storage
 assets/broll/*.mp4
+assets/broll/*.placeholder
+assets/motion/**/*.mp4
+assets/motion/**/*.placeholder
+assets/motion/**/*.mov
+assets/talking_head/*.mp4
 assets/music/*.mp3
 assets/music/*.wav
 assets/voiceover/*.mp3

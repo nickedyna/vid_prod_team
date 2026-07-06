@@ -1,0 +1,52 @@
+{
+  "jobName": "intro-video_01",
+  "brand": "Nat O’Farril / AI Email Dev",
+  "slogan": "Learn AI. Build proof. Grow your value.",
+  "productionMode": "faceless",
+  "talkingHeadAsset": "assets/talking_head/nat_intro_01.mp4",
+  "visualStyle": "brief_to_zip_flow_map",
+  "fallbackVisualStyle": "enterprise_grid_pulse",
+  "voiceover": "assets/voiceover/intro-video_01_voiceover.wav",
+  "shortScript": "If you’re trying to break into enterprise marketing, here’s the overlooked path I’m building this channel around: AI-powered email development. And no, I do not mean just sending newsletters. I’m talking HTML email, QA, personalization, campaign briefs, automation, analytics, AI agents, and the systems companies use to communicate with millions of customers. I’m Nat O’Farril. I work in enterprise marketing, and I’m building this in public while still working in corporate. This channel is for the people who feel overlooked. Blue-collar workers trying to break into technical work. Recent grads who cannot get a real shot. Marketing people who feel stuck. Email developers who know they can become more valuable. Here, we are going to learn AI, build real proof-of-work projects, and grow our value. The first system I’m building is a Brief-to-ZIP AI email workflow. A campaign brief goes in. An AI agent helps create the copy, HTML, QA notes, journey logic, deployment notes, and a full production package. That is the kind of proof companies can understand. Subscribe if you want to become the AI-powered email developer companies cannot ignore.",
+  "longScript": "If you’re trying to break into enterprise marketing, here’s the overlooked path I’m building this entire channel around: AI-powered email development. And no, I do not mean just sending newsletters.\n\nI’m talking about enterprise email development. HTML email. QA. Personalization. Campaign briefs. Marketing automation. Analytics. AI agents. The real production systems that companies use to communicate with thousands or millions of customers every single day.\n\nI’m Nat O’Farril. I work in enterprise marketing, and I’m building this in public while still working in corporate. I know what campaign deadlines, testing cycles, approvals, broken briefs, and last-minute changes actually look like from the inside. And what I know is this: email development is not small. Email is enterprise infrastructure, and almost every serious company needs it.\n\nThis channel is for the people who feel overlooked. Blue-collar workers trying to break into technical work. Recent grads who cannot get a real shot. Marketing people who feel stuck or invisible. Email developers who know they can become more valuable than their current role allows.\n\nHere is the plan. We are going to learn AI, build real proof-of-work projects, and grow our value. Not with hype, and not with income guarantees, but with evidence: real systems, real templates, real workflows you can show to a hiring manager, a client, or your own leadership team.\n\nThe first system I’m building is a Brief-to-ZIP AI email workflow. A campaign brief goes in. An AI agent helps create the copy, the HTML, the QA notes, the journey logic, the deployment notes, and a full production package that ships as a ZIP. That is the kind of proof companies can understand, because it looks like the work they already do.\n\nIn upcoming videos I’ll show the first version of that workflow end to end: how a simple campaign brief becomes subject lines, a custom HTML template, a QA checklist, and a deployment-ready package. We’ll cover HTML email fundamentals, QA and rendering, personalization, automation thinking, and how to use tools like ChatGPT, GitHub Copilot, and AI agents without losing your own judgment.\n\nThe framework is simple: Learn AI. Build proof. Grow your value.\n\nSubscribe if you want to become the AI-powered email developer companies cannot ignore.",
+  "thumbnail": {
+    "headline": "OVERLOOKED → ENTERPRISE",
+    "subhead": "AI EMAIL DEV",
+    "cta": "Build Proof"
+  },
+  "captions": [
+    {"timeStart": "0:00", "timeEnd": "0:03", "text": "Trying to break into enterprise marketing?"},
+    {"timeStart": "0:03", "timeEnd": "0:07", "text": "Here’s the overlooked path."},
+    {"timeStart": "0:07", "timeEnd": "0:11", "text": "AI-powered email development."},
+    {"timeStart": "0:11", "timeEnd": "0:16", "text": "Not just newsletters."},
+    {"timeStart": "0:16", "timeEnd": "0:22", "text": "HTML. QA. Automation. Personalization. AI workflows."},
+    {"timeStart": "0:22", "timeEnd": "0:28", "text": "Building in public while still working in corporate."},
+    {"timeStart": "0:28", "timeEnd": "0:35", "text": "This channel is for overlooked builders."},
+    {"timeStart": "0:35", "timeEnd": "0:43", "text": "Learn AI. Build proof. Grow your value."},
+    {"timeStart": "0:43", "timeEnd": "0:52", "text": "Brief → AI Agent → HTML → QA → ZIP"},
+    {"timeStart": "0:52", "timeEnd": "1:00", "text": "Subscribe to become the AI-powered email developer companies cannot ignore."}
+  ],
+  "videoPlan": [
+    {"clip": "broll/job_board_scroll.mp4", "duration": 3, "overlayText": "Trying to break into enterprise marketing?", "motion": "slow zoom in", "transition": "quick cut"},
+    {"clip": "broll/campaign_brief_scroll.mp4", "duration": 4, "overlayText": "The overlooked path", "motion": "screen push-in", "transition": "swipe left"},
+    {"clip": "broll/html_email_code.mp4", "duration": 5, "overlayText": "HTML • QA • Automation • AI", "motion": "cursor highlight", "transition": "glitch cut"},
+    {"clip": "broll/chatgpt_agent_prompt.mp4", "duration": 5, "overlayText": "Campaign Brief → AI Agent", "motion": "typing highlight", "transition": "quick cut"},
+    {"clip": "broll/template_generator_output.mp4", "duration": 6, "overlayText": "Custom HTML Templates", "motion": "zoom to generated email", "transition": "slide up"},
+    {"clip": "broll/qa_checklist_scroll.mp4", "duration": 5, "overlayText": "QA Notes + Deployment Logic", "motion": "checkmark animation", "transition": "quick cut"},
+    {"clip": "broll/zip_package_folder.mp4", "duration": 5, "overlayText": "Proof-of-Work Package", "motion": "folder open zoom", "transition": "impact cut"},
+    {"clip": "broll/corporate_desk_setup.mp4", "duration": 8, "overlayText": "Building in public while still working in corporate", "motion": "slow cinematic push", "transition": "fade"},
+    {"clip": "motion/backgrounds/brief_to_zip_flow_map.mp4", "duration": 8, "overlayText": "Learn AI. Build proof. Grow your value.", "motion": "animated flow map", "transition": "fade to end card"},
+    {"clip": "broll/subscribe_end_card.mp4", "duration": 5, "overlayText": "Become the AI-powered email developer companies cannot ignore", "motion": "subscribe button pulse", "transition": "end"}
+  ],
+  "musicSuggestion": {
+    "mood": "clean corporate tech",
+    "volume": "voiceover at 100%, music bed at 10% to 18%, duck music under voice",
+    "styleNotes": "Clean corporate tech background music. Voice must be primary. If no licensed track is available, render without music; do not fail the build."
+  },
+  "metadata": {
+    "title": "The Overlooked Path Into Enterprise Marketing: AI Email Dev Intro",
+    "description": "This channel is about AI-powered email development, enterprise marketing workflows, proof-of-work projects, and career growth for overlooked builders.\n\nI’m Nat O’Farril, and I’m building in public while still working in corporate. The goal is simple: learn AI, build proof, and grow your value.\n\nIn this first intro, I explain why email development is one of the most overlooked paths into enterprise marketing and how I’m building a Brief-to-ZIP AI email workflow.\n\nSubscribe if you want to become the AI-powered email developer companies cannot ignore.",
+    "tags": ["AI Email Developer", "Email Development", "Enterprise Marketing", "Marketing Automation", "HTML Email", "Proof of Work", "Career Change", "ChatGPT", "GitHub Copilot", "AI Workflow", "Faceless YouTube", "Marketing Cloud", "Email Marketing", "Campaign Analyst", "Technical Marketing"],
+    "pinnedComment": "This is the lane I’m building in public: AI-powered email development, enterprise marketing workflows, and proof-of-work projects. Are you trying to break into enterprise marketing, already working in email, or learning AI from scratch?"
+  }
+}

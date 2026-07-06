@@ -2,7 +2,7 @@ import argparse
 import json
 from pathlib import Path
 
-from moviepy.editor import ColorClip, CompositeVideoClip, ImageClip
+from moviepy import ImageClip
 from PIL import Image, ImageDraw, ImageFont
 
 SIZE = (1080, 1920)
@@ -54,9 +54,9 @@ def text_card(text: str, out_png: Path, size=SIZE) -> None:
 def create_clip(text: str, output_mp4: Path, duration: float) -> None:
     temp_png = Path("output") / "tmp" / f"{output_mp4.stem}.png"
     text_card(text, temp_png)
-    clip = ImageClip(str(temp_png)).set_duration(duration).resize(SIZE)
+    clip = ImageClip(str(temp_png)).with_duration(duration).resized(SIZE)
     output_mp4.parent.mkdir(parents=True, exist_ok=True)
-    clip.write_videofile(str(output_mp4), fps=30, codec="libx264", audio=False, verbose=False, logger=None)
+    clip.write_videofile(str(output_mp4), fps=30, codec="libx264", audio=False, logger=None)
 
 
 def main() -> None:
@@ -73,6 +73,8 @@ def main() -> None:
             print(f"Skipping existing asset: {clip_path}")
             continue
         create_clip(item["overlayText"], clip_path, item["duration"])
+        # Marker lets downstream tooling distinguish placeholders from real footage.
+        clip_path.with_suffix(".placeholder").touch()
         print(f"✅ Placeholder asset created: {clip_path}")
 
     print("Done. Replace these placeholder clips with real screen recordings when ready.")
