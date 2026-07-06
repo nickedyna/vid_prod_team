@@ -1,0 +1,33 @@
+name: Validate Video Jobs
+
+on:
+  push:
+    paths:
+      - 'jobs/**/*.json'
+      - 'scripts/validate_job.py'
+      - '.github/workflows/validate-jobs.yml'
+  pull_request:
+    paths:
+      - 'jobs/**/*.json'
+      - 'scripts/validate_job.py'
+      - '.github/workflows/validate-jobs.yml'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+      - name: Validate jobs
+        run: |
+          for file in jobs/*.json; do
+            if [ -f "$file" ]; then
+              python scripts/validate_job.py --job "$file"
+            fi
+          done
