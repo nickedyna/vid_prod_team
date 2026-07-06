@@ -1,0 +1,163 @@
+{
+  "jobName": "senioto-longform_01",
+  "brand": "Senioto",
+  "slogan": "Learn AI. Build proof. Grow your value.",
+  "productionMode": "hybrid",
+  "visualStyle": "senioto_enterprise_ai",
+  "fallbackVisualStyle": "enterprise_grid_pulse",
+  "targetDuration": 600,
+  "voiceover": "assets/voiceover/senioto-longform_01_voiceover.wav",
+  "talkingHead": {
+    "clips": [
+      "assets/talking_head/nat_intro_01.mp4",
+      "assets/talking_head/nat_main_01.mp4",
+      "assets/talking_head/nat_cta_01.mp4"
+    ],
+    "framing": "chest-up, dark backdrop, key light on face, direct eye contact (reference-verified framing)",
+    "overlay": "assets/motion/overlays/talking_head_tech_frame.mov"
+  },
+  "motionAssets": [
+    "assets/motion/backgrounds/senioto_framework_map.mp4",
+    "assets/motion/backgrounds/enterprise_grid_pulse.mp4",
+    "assets/motion/backgrounds/brief_to_zip_flow_map.mp4",
+    "assets/motion/overlays/talking_head_tech_frame.mov",
+    "assets/motion/end_cards/subscribe_end_card.mp4"
+  ],
+  "shortScript": "Most people are using AI wrong. Not because they picked the wrong tool — because they never turn it into anything. They watch tutorials, save prompts, try every new model, and six months later they have nothing they can show a hiring manager, a client, or their own boss. AI alone is not the skill. Proof is the skill. Take one workflow you understand, run it through AI, and turn the result into something someone can open and check. That is how you become more valuable. Learn AI. Build proof. Grow your value.",
+  "longScript": "Most people are using AI wrong. Not because they picked the wrong tool — because they never turn it into anything. They watch tutorials, save prompts, sign up for every new model, and six months later they have nothing they can show a hiring manager, a client, or their own boss. In the next ten minutes I'm going to show you the exact system I use to turn AI into proof-of-work — real projects that make you more valuable — including the workflow I'm building right now while working a corporate enterprise marketing job. No hype. No income promises. Just the system.\n\nQuick check — this video is for you if any of these sound familiar. You're trying to change careers and nobody will give you the first shot. You just graduated and every posting wants three years of experience. You're doing blue-collar or overlooked work and you know you're capable of more. Or you're already in marketing or email development and you feel stuck at your current level. Different starting points, same problem: you need a way to prove what you can do before someone pays you to do it. That's what this is about.\n\nSo what do I actually mean by proof-of-work? It's not a certificate. It's not a course completion badge. And it's not a resume line that says 'familiar with ChatGPT.' Proof-of-work is an artifact someone can open, inspect, and judge in five minutes. A working project. A documented workflow. A before-and-after that shows a real problem getting solved. Here's the test I use: if I sent it to a hiring manager with no explanation, would they understand what I did, why it matters, and what it would look like if I did it for them? Certificates say you watched something. Proof says you built something. And in a world where everyone's resume now says 'AI skills', the people who can point at real output are the ones who stand out. Proof is the difference between claiming value and demonstrating it.\n\nNow here's the uncomfortable part: AI alone is not enough. Everyone has access to the same models you do. Copying a prompt off the internet is not a skill — it's a download. The value is not in the tool. The value is in the workflow you wrap around the tool: knowing what good output looks like, knowing what to check before something ships, knowing how work actually moves through a real team — briefs, revisions, approvals, deadlines. That's judgment, and judgment comes from doing the work. AI multiplies whatever you bring to it. If you bring nothing, it multiplies nothing. If you bring domain knowledge and a repeatable process, it turns you into someone who can produce at a level that used to take a whole team. That's the version of you companies can't ignore.\n\nSo here's the Senioto framework. Three steps: Learn AI. Build proof. Grow your value. Step one — learn AI, but learn it narrow. Don't try to learn 'AI' in general; pick one workflow in a domain you understand and learn every tool that touches it. Step two — build proof. Take that workflow and turn it into an artifact: a project, a repo, a demo, a documented system. Something that exists whether or not you're in the room to explain it. Step three — grow your value. Use the proof. Show it in interviews, share it with your manager, publish it, point clients at it. Then repeat the loop, one level up. Notice what this isn't. It isn't 'learn everything about AI first.' You'll never finish. It isn't 'build a portfolio of twenty tiny demos.' One real, finished, documented system beats twenty toys. And it isn't 'wait until you're ready.' You get ready by building. Every cycle through this loop, the projects get bigger, the proof gets stronger, and the value conversation gets easier — whether that's a job offer, a promotion, or a client.\n\nLet me make this concrete with the exact project I'm building right now: an AI email development workflow I call Brief-to-ZIP. Some context: I work in enterprise marketing. Email at that level is not newsletters — it's HTML templates, QA, personalization, rendering tests, campaign briefs, approvals, deployment. Real production systems that send to millions of customers. And almost every serious company runs on them. Here's the workflow. A campaign brief goes in — audience, offer, dates, goal. An AI agent reads the brief and drafts the pieces: subject lines, preheader, body copy, a plain-text version. That copy gets applied to one of my custom HTML email templates — built for real rendering constraints, dark mode, mobile. Then the system generates a QA checklist: links, personalization fields, alt text, tracking parameters. Plus journey logic and deployment notes — what sends when, to whom, and why. And the whole thing gets packaged into a ZIP: copy, HTML, QA notes, deployment docs. One folder. Open it and you're looking at the same shape of work an enterprise email team ships every week. That's the point. When someone opens that ZIP, I don't have to convince them I understand email production — the evidence is right there. It's proof a hiring manager can check, a client can evaluate, and a team lead can trust. And notice the AI is doing the acceleration, not the thinking. The templates are mine. The QA standards are mine. The judgment about what's good enough to ship is mine. AI makes the loop fast; the workflow makes it valuable.\n\nWhat if you're starting from zero? Don't start with the fanciest model — start with a problem you already understand. The best first project sits at the intersection of three things: work you've actually done or seen, a task that's repetitive and annoying, and an output you can show. Then build one small end-to-end system. Not a prompt — a pipeline. Input goes in, steps happen, a finished artifact comes out. If you know email, automate one campaign build. If you know spreadsheets, automate one report. If you know support, build one triage workflow. Small is fine; finished is mandatory. And document while you build, not after. Screenshots, notes on what broke, why you chose what you chose. The documentation is half the proof — it shows judgment, not just output. Give yourself two weeks, ship something imperfect, and you'll learn more than three months of tutorials will teach you.\n\nNow, packaging — because unexplained proof is invisible. Three rules. One: make it openable. A GitHub repo, a ZIP, a short demo video. If it takes more than two clicks to see, it won't get seen. Two: write a README a non-technical person can follow — the problem, what goes in, what comes out, one picture of the workflow. Say it plainly: 'this turns a campaign brief into a deploy-ready email package in an hour instead of a day.' Three: show the before and after. The messy input next to the finished output is the most convincing screenshot you will ever take. Package every project like the person reviewing it has five minutes and no patience — because that is exactly who's reviewing it.\n\nThis channel is where I build all of this in public. Next up: the full Brief-to-ZIP build, end to end — the agent, the templates, the QA system, the packaging. Plus template builds, workflow breakdowns, and the systems I use inside a real corporate job. Everything documented, everything reproducible, everything you can adapt for your own proof.\n\nSo here's the move. Pick the workflow you already understand. Learn the AI that touches it. Build one finished, documented project. Package it so anyone can open it. That's the whole system: Learn AI. Build proof. Grow your value. I'm Nat O'Farril, this is Senioto, and I'm building this while still working in corporate — so you can watch it happen for real, not in theory. Subscribe if you want to build proof-of-work that makes you impossible to ignore. See you in the next build.",
+  "chapters": [
+    {"time": "0:00", "title": "Most People Use AI Wrong"},
+    {"time": "0:40", "title": "Who This Is For"},
+    {"time": "1:20", "title": "What Proof-of-Work Means"},
+    {"time": "2:20", "title": "Why AI Alone Is Not Enough"},
+    {"time": "3:20", "title": "The Senioto Framework"},
+    {"time": "4:40", "title": "Example: Brief-to-ZIP Workflow"},
+    {"time": "6:40", "title": "Starting From Zero"},
+    {"time": "7:50", "title": "How to Package Proof"},
+    {"time": "8:50", "title": "What Senioto Builds Next"},
+    {"time": "9:20", "title": "Subscribe"}
+  ],
+  "thumbnail": {
+    "headline": "BUILD PROOF WITH AI",
+    "subhead": "SENIOTO ROADMAP",
+    "cta": "Start Building"
+  },
+  "captions": [
+    {"timeStart": "0:00", "timeEnd": "0:40", "text": "Most people are using AI wrong."},
+    {"timeStart": "0:40", "timeEnd": "1:20", "text": "Career changers. Grads. Overlooked builders. Stuck marketers."},
+    {"timeStart": "1:20", "timeEnd": "2:20", "text": "Proof-of-work: an artifact someone can open, inspect, and judge in 5 minutes."},
+    {"timeStart": "2:20", "timeEnd": "3:20", "text": "AI multiplies whatever you bring to it. Bring a workflow."},
+    {"timeStart": "3:20", "timeEnd": "4:40", "text": "Learn AI. Build proof. Grow your value. Then repeat, one level up."},
+    {"timeStart": "4:40", "timeEnd": "6:40", "text": "Brief → Agent → HTML → QA → ZIP"},
+    {"timeStart": "6:40", "timeEnd": "7:50", "text": "One small end-to-end system. Finished is mandatory."},
+    {"timeStart": "7:50", "timeEnd": "8:50", "text": "Openable. Explained. Before-and-after."},
+    {"timeStart": "8:50", "timeEnd": "9:20", "text": "Next: the full Brief-to-ZIP build, end to end."},
+    {"timeStart": "9:20", "timeEnd": "10:00", "text": "Subscribe — build proof that makes you impossible to ignore."}
+  ],
+  "videoPlan": [
+    {"clip": "talking_head/nat_intro_01.mp4", "duration": 15, "overlayText": "Most people are using AI wrong", "motion": "talking head, punch-in at 'wrong'", "transition": "hard cut"},
+    {"clip": "broll/chatgpt_agent_prompt.mp4", "duration": 10, "overlayText": "Watching is not building", "motion": "screen recording, cursor highlight", "transition": "quick cut"},
+    {"clip": "broll/workflow_montage_fast.mp4", "duration": 15, "overlayText": "Turn AI into proof-of-work", "motion": "fast montage", "transition": "hard cut"},
+    {"clip": "motion/chapter_cards/ch02_who_this_is_for.mp4", "duration": 5, "overlayText": "01 — Who This Is For", "motion": "teal underline sweep", "transition": "cross dissolve 200ms"},
+    {"clip": "talking_head/nat_main_01.mp4", "duration": 20, "overlayText": "Career changers. Grads. Overlooked builders.", "motion": "talking head with lower third", "transition": "quick cut"},
+    {"clip": "broll/job_board_scroll.mp4", "duration": 15, "overlayText": "Breaking in without a network", "motion": "slow scroll", "transition": "hard cut"},
+    {"clip": "motion/chapter_cards/ch03_proof_of_work.mp4", "duration": 5, "overlayText": "02 — Proof-of-Work", "motion": "teal underline sweep", "transition": "cross dissolve 200ms"},
+    {"clip": "talking_head/nat_main_01.mp4", "duration": 20, "overlayText": "Not a certificate. An artifact.", "motion": "talking head, keyword pop-ups", "transition": "quick cut"},
+    {"clip": "broll/zip_package_folder.mp4", "duration": 15, "overlayText": "Evidence someone can open and check", "motion": "folder open zoom", "transition": "quick cut"},
+    {"clip": "broll/template_generator_output.mp4", "duration": 20, "overlayText": "Work that looks like real work", "motion": "browser preview scroll", "transition": "hard cut"},
+    {"clip": "motion/chapter_cards/ch04_ai_alone.mp4", "duration": 5, "overlayText": "03 — AI Alone Is Not Enough", "motion": "teal underline sweep", "transition": "cross dissolve 200ms"},
+    {"clip": "talking_head/nat_main_01.mp4", "duration": 20, "overlayText": "A prompt is a download, not a skill", "motion": "talking head, punch-in", "transition": "quick cut"},
+    {"clip": "broll/chatgpt_agent_prompt.mp4", "duration": 20, "overlayText": "Everyone has the same tools", "motion": "typing highlight", "transition": "quick cut"},
+    {"clip": "motion/backgrounds/enterprise_grid_pulse.mp4", "duration": 15, "overlayText": "Judgment + workflow beats prompts", "motion": "grid pulse background with text card", "transition": "hard cut"},
+    {"clip": "motion/chapter_cards/ch05_framework.mp4", "duration": 5, "overlayText": "04 — The Senioto Framework", "motion": "teal underline sweep", "transition": "cross dissolve 200ms"},
+    {"clip": "motion/backgrounds/senioto_framework_map.mp4", "duration": 30, "overlayText": "Learn AI → Build Proof → Grow Your Value", "motion": "three-node flow map, nodes light up per step", "transition": "quick cut"},
+    {"clip": "talking_head/nat_main_01.mp4", "duration": 20, "overlayText": "One finished system beats twenty toys", "motion": "talking head", "transition": "quick cut"},
+    {"clip": "broll/github_copilot_editing.mp4", "duration": 25, "overlayText": "You get ready by building", "motion": "code editing scroll", "transition": "hard cut"},
+    {"clip": "motion/chapter_cards/ch06_brief_to_zip.mp4", "duration": 5, "overlayText": "05 — Brief-to-ZIP Workflow", "motion": "teal underline sweep", "transition": "cross dissolve 200ms"},
+    {"clip": "motion/backgrounds/brief_to_zip_flow_map.mp4", "duration": 20, "overlayText": "Brief → Agent → HTML → QA → ZIP", "motion": "flow map, each node lights as narrated", "transition": "quick cut"},
+    {"clip": "broll/campaign_brief_scroll.mp4", "duration": 15, "overlayText": "A campaign brief goes in", "motion": "document scroll", "transition": "quick cut"},
+    {"clip": "broll/chatgpt_agent_prompt.mp4", "duration": 20, "overlayText": "AI agent drafts the copy", "motion": "response streaming", "transition": "quick cut"},
+    {"clip": "broll/html_email_code.mp4", "duration": 20, "overlayText": "Applied to custom HTML templates", "motion": "code scroll with preview", "transition": "quick cut"},
+    {"clip": "broll/qa_checklist_scroll.mp4", "duration": 20, "overlayText": "QA checklist + deployment notes", "motion": "checkmark animation", "transition": "quick cut"},
+    {"clip": "broll/zip_package_folder.mp4", "duration": 20, "overlayText": "Packaged into one ZIP", "motion": "folder reveal zoom", "transition": "hard cut"},
+    {"clip": "motion/chapter_cards/ch07_start_from_zero.mp4", "duration": 5, "overlayText": "06 — Starting From Zero", "motion": "teal underline sweep", "transition": "cross dissolve 200ms"},
+    {"clip": "talking_head/nat_main_01.mp4", "duration": 20, "overlayText": "Start with a problem you understand", "motion": "talking head", "transition": "quick cut"},
+    {"clip": "broll/html_email_code.mp4", "duration": 25, "overlayText": "One small end-to-end system", "motion": "build montage", "transition": "quick cut"},
+    {"clip": "broll/qa_checklist_scroll.mp4", "duration": 20, "overlayText": "Document while you build", "motion": "notes scroll", "transition": "hard cut"},
+    {"clip": "motion/chapter_cards/ch08_package_proof.mp4", "duration": 5, "overlayText": "07 — Package Your Proof", "motion": "teal underline sweep", "transition": "cross dissolve 200ms"},
+    {"clip": "broll/zip_package_folder.mp4", "duration": 20, "overlayText": "Openable in two clicks", "motion": "folder open", "transition": "quick cut"},
+    {"clip": "broll/github_copilot_editing.mp4", "duration": 20, "overlayText": "Repo + README + demo", "motion": "repo scroll", "transition": "quick cut"},
+    {"clip": "talking_head/nat_main_01.mp4", "duration": 15, "overlayText": "Five minutes. No patience. Plan for it.", "motion": "talking head, punch-in", "transition": "hard cut"},
+    {"clip": "motion/chapter_cards/ch09_whats_next.mp4", "duration": 5, "overlayText": "08 — What Senioto Builds Next", "motion": "teal underline sweep", "transition": "cross dissolve 200ms"},
+    {"clip": "motion/backgrounds/brief_to_zip_flow_map.mp4", "duration": 25, "overlayText": "Next: the full Brief-to-ZIP build", "motion": "flow map with next-video teaser", "transition": "quick cut"},
+    {"clip": "talking_head/nat_cta_01.mp4", "duration": 20, "overlayText": "Learn AI. Build proof. Grow your value.", "motion": "talking head, direct to camera", "transition": "cross dissolve"},
+    {"clip": "motion/end_cards/subscribe_end_card.mp4", "duration": 20, "overlayText": "Subscribe — become impossible to ignore", "motion": "subscribe pulse + next video preview", "transition": "end"}
+  ],
+  "musicSuggestion": {
+    "mood": "clean corporate tech, low-key focus energy",
+    "volume": "voiceover at 100%, music bed at 8% to 15%, duck under voice",
+    "styleNotes": "Minimal synth pulse, no vocals, subtle energy lift at chapter cards and CTA. If no licensed track exists, render voice-only; do not fail."
+  },
+  "mastering": {
+    "voiceTarget": "-14 LUFS integrated, -1 dBTP ceiling",
+    "musicUnderVoice": "8% to 15%, sidechain duck 3-4 dB under speech",
+    "eq": "high-pass voice at 80Hz, gentle presence lift 3-5kHz",
+    "pacing": "hard chapter boundaries, no section over 45s without a visual change"
+  },
+  "capcutPlan": "output/review/senioto-longform_01/capcut_edit_plan.md",
+  "shortCutdowns": [
+    {
+      "id": "cutdown_01_using_ai_wrong",
+      "title": "Most People Are Using AI Wrong",
+      "hook": "Most people are using AI wrong — and it has nothing to do with which model they use.",
+      "script": "Most people are using AI wrong. Not because they picked the wrong tool — because they never turn it into anything. They watch tutorials, save prompts, try every new model, and six months later they have nothing to show a hiring manager, a client, or their own boss. The fix is one sentence: stop collecting AI and start producing with it. Take one workflow you already understand, run it through AI, and turn the result into an artifact someone can open and check. A project. A repo. A before-and-after. That is proof-of-work, and proof is the skill. Learn AI. Build proof. Grow your value. Subscribe if you want to build proof companies cannot ignore.",
+      "captions": ["Most people are using AI wrong.", "They collect tools. They never produce.", "Stop collecting AI. Start producing with it.", "One workflow → one artifact someone can check.", "Proof is the skill.", "Learn AI. Build proof. Grow your value."],
+      "cta": "Subscribe if you want to build proof companies cannot ignore.",
+      "brollPlan": ["broll/chatgpt_agent_prompt.mp4", "broll/workflow_montage_fast.mp4", "broll/zip_package_folder.mp4", "motion/end_cards/subscribe_end_card.mp4"]
+    },
+    {
+      "id": "cutdown_02_proof_of_work",
+      "title": "What Proof-of-Work Actually Means",
+      "hook": "Proof-of-work is not a certificate. Here's what it actually is.",
+      "script": "Proof-of-work is not a certificate. It's not a course badge, and it's not a resume line that says 'familiar with ChatGPT.' Proof-of-work is an artifact someone can open, inspect, and judge in five minutes. A working project. A documented workflow. A before-and-after that shows a real problem getting solved. Here's the test: if you sent it to a hiring manager with no explanation, would they understand what you did and why it matters? Certificates say you watched something. Proof says you built something. In a world where every resume now says 'AI skills', the people who can point at real output are the ones who stand out. Subscribe for the full system: learn AI, build proof, grow your value.",
+      "captions": ["Proof-of-work is not a certificate.", "It's an artifact someone can open and judge in 5 minutes.", "The test: would a hiring manager get it with no explanation?", "Certificates say you watched. Proof says you built.", "Learn AI. Build proof. Grow your value."],
+      "cta": "Subscribe for the full proof-of-work system.",
+      "brollPlan": ["broll/zip_package_folder.mp4", "broll/template_generator_output.mp4", "broll/qa_checklist_scroll.mp4", "motion/end_cards/subscribe_end_card.mp4"]
+    },
+    {
+      "id": "cutdown_03_email_dev_overlooked",
+      "title": "AI Email Dev Is an Overlooked Path",
+      "hook": "Here's an overlooked path into enterprise tech almost nobody is talking about.",
+      "script": "Here's an overlooked path into enterprise tech: AI-powered email development. Enterprise email is not newsletters — it's HTML templates, QA, personalization, campaign briefs, automation, and production systems that send to millions of customers. Almost every serious company runs on them. I'm building a workflow called Brief-to-ZIP: a campaign brief goes in, an AI agent drafts the copy, it gets applied to custom HTML templates, a QA checklist and deployment notes get generated, and the whole thing ships as one ZIP. Open that folder and you're looking at the same shape of work an enterprise email team ships every week. That's proof a hiring manager can check. Subscribe if you want to watch the full build.",
+      "captions": ["The overlooked path: AI email development.", "Not newsletters. Enterprise production systems.", "Brief → Agent → HTML → QA → ZIP", "Proof a hiring manager can actually check.", "Subscribe to watch the full build."],
+      "cta": "Subscribe to watch the full Brief-to-ZIP build.",
+      "brollPlan": ["broll/html_email_code.mp4", "broll/chatgpt_agent_prompt.mp4", "motion/backgrounds/brief_to_zip_flow_map.mp4", "broll/zip_package_folder.mp4"]
+    },
+    {
+      "id": "cutdown_04_build_before_asking",
+      "title": "Build Proof Before Asking for Opportunity",
+      "hook": "Stop asking for opportunity. Build the proof first.",
+      "script": "Stop asking for opportunity and start building the case for it. If you're trying to break in, change careers, or get promoted, the order matters: proof first, ask second. Build one small end-to-end system in a domain you already understand. Input goes in, steps happen, a finished artifact comes out. Document it while you build — screenshots, decisions, what broke. Then package it: a repo or ZIP, a plain-English README, and a before-and-after. Now when you ask for the interview, the raise, or the client, you're not asking them to believe you. You're asking them to look. That changes the whole conversation. Learn AI. Build proof. Grow your value. Subscribe for the system.",
+      "captions": ["Proof first. Ask second.", "One small end-to-end system.", "Document while you build.", "Repo + README + before-and-after.", "Don't ask them to believe you. Ask them to look.", "Learn AI. Build proof. Grow your value."],
+      "cta": "Subscribe for the full system.",
+      "brollPlan": ["broll/github_copilot_editing.mp4", "broll/qa_checklist_scroll.mp4", "broll/zip_package_folder.mp4", "motion/end_cards/subscribe_end_card.mp4"]
+    },
+    {
+      "id": "cutdown_05_framework",
+      "title": "Learn AI. Build Proof. Grow Your Value.",
+      "hook": "The whole system is three steps. Most people skip the second one.",
+      "script": "The whole system is three steps, and most people skip the second one. Step one: learn AI — but learn it narrow. Pick one workflow in a domain you understand and learn every tool that touches it. Step two: build proof. Turn that workflow into an artifact — a project, a repo, a documented system that exists whether or not you're in the room to explain it. This is the step everyone skips, and it's the one that matters. Step three: grow your value. Show the proof in interviews, to your manager, to clients. Then repeat the loop one level up. Bigger projects. Stronger proof. Easier conversations. Learn AI. Build proof. Grow your value. Subscribe if you're building too.",
+      "captions": ["Three steps. Most people skip the second.", "1. Learn AI — narrow, not general.", "2. Build proof — the step everyone skips.", "3. Grow your value — show, don't claim.", "Repeat one level up.", "Learn AI. Build proof. Grow your value."],
+      "cta": "Subscribe if you're building too.",
+      "brollPlan": ["motion/backgrounds/senioto_framework_map.mp4", "broll/github_copilot_editing.mp4", "broll/zip_package_folder.mp4", "motion/end_cards/subscribe_end_card.mp4"]
+    }
+  ],
+  "metadata": {
+    "title": "How to Use AI to Build Proof-of-Work and Become More Valuable",
+    "description": "Most people are using AI wrong — they collect tools and never produce anything they can show. In this video I break down the exact system I use to turn AI into proof-of-work: real, finished, documented projects that make you more valuable to employers, clients, and your own team.\n\nI'm Nat O'Farril. I work in enterprise marketing and I'm building Senioto in public while still working in corporate. No hype, no income promises — just the system.\n\nWhat's inside:\n— What proof-of-work actually means (and what it isn't)\n— Why AI alone is not enough\n— The Senioto framework: Learn AI. Build proof. Grow your value.\n— A real example: the Brief-to-ZIP AI email development workflow\n— What to build first if you're starting from zero\n— How to package proof so people actually understand it\n\nChapters:\n0:00 Most People Use AI Wrong\n0:40 Who This Is For\n1:20 What Proof-of-Work Means\n2:20 Why AI Alone Is Not Enough\n3:20 The Senioto Framework\n4:40 Example: Brief-to-ZIP Workflow\n6:40 Starting From Zero\n7:50 How to Package Proof\n8:50 What Senioto Builds Next\n9:20 Subscribe\n\nSubscribe if you want to build proof-of-work that makes you impossible to ignore.\n\nLearn AI. Build proof. Grow your value.\nsenioto.net",
+    "tags": ["AI Proof of Work", "Learn AI", "AI Portfolio Projects", "AI Email Developer", "Email Development", "Enterprise Marketing", "Marketing Automation", "AI Workflow", "Career Change", "ChatGPT", "GitHub Copilot", "AI Skills", "Build In Public", "Senioto", "Technical Marketing", "HTML Email", "Proof of Work Projects", "AI Career Growth"],
+    "pinnedComment": "This is the system Senioto is built on: Learn AI. Build proof. Grow your value. What's the first proof-of-work project you're building — or stuck on? Drop it below and I'll point you at the next step.",
+    "thumbnailHeadline": "BUILD PROOF WITH AI",
+    "thumbnailSubhead": "SENIOTO ROADMAP"
+  }
+}

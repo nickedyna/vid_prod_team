@@ -1,0 +1,100 @@
+{
+  "brand": "Senioto",
+  "brandLine": "Learn AI. Build proof. Grow your value.",
+  "status": "proposed until verified — no official Senioto.net CSS or screenshots found in workspace; verify against senioto.net before locking",
+  "styleId": "senioto_enterprise_ai",
+  "colors": {
+    "deepNavy": "#07111F",
+    "midnightBlue": "#0B1220",
+    "electricBlue": "#2563EB",
+    "cyanTeal": "#14B8A6",
+    "warmAmber": "#F59E0B",
+    "softWhite": "#F8FAFC",
+    "mutedSlate": "#94A3B8",
+    "successGreen": "#22C55E"
+  },
+  "fonts": {
+    "headline": "Inter Bold / Montserrat Bold (fallback: Arial Bold, DejaVu Sans Bold)",
+    "body": "Inter Regular (fallback: Arial, DejaVu Sans)",
+    "code": "JetBrains Mono (fallback: Consolas, DejaVu Sans Mono)",
+    "note": "Use system-safe fallbacks in automated renders; use Inter/Montserrat in CapCut and Canva."
+  },
+  "captionStyle": {
+    "mode": "keyword overlays for long-form, full captions for Shorts",
+    "fontSize": 54,
+    "fontWeight": "bold",
+    "textColor": "#F8FAFC",
+    "highlightColor": "#F59E0B",
+    "keywordAccentColor": "#2563EB",
+    "background": "semi-transparent deep navy panel (#07111F at 70%)",
+    "position": "lower third for long-form, bottom safe zone for Shorts",
+    "animation": "pop-in scale 95%->100%, 150ms, synced to VO keyword"
+  },
+  "lowerThirdStyle": {
+    "layout": "left-aligned bar",
+    "primaryText": "Nat O'Farril",
+    "secondaryText": "Senioto — Learn AI. Build proof. Grow your value.",
+    "bar": "electric blue #2563EB 6px left rule, deep navy panel, soft white text",
+    "animation": "slide in from left 250ms, hold 4s, slide out",
+    "usage": "first talking-head appearance and after each chapter card"
+  },
+  "titleCardStyle": {
+    "background": "deep navy #07111F with subtle grid pattern and soft radial glow",
+    "chapterNumber": "electric blue #2563EB, oversized, top-left",
+    "title": "soft white #F8FAFC, bold, max 4 words",
+    "underline": "cyan teal #14B8A6 accent line animating left to right",
+    "duration": "4-5 seconds",
+    "sound": "soft whoosh, no impact hit"
+  },
+  "motionBackgroundStyle": {
+    "primary": "senioto_framework_map — animated three-node flow: LEARN -> BUILD -> GROW with glowing accent lines",
+    "secondary": "enterprise_grid_pulse — dark grid, slow teal pulse",
+    "workflow": "brief_to_zip_flow_map — Brief -> Agent -> HTML -> QA -> ZIP node map",
+    "rules": "slow movement only, never distracts from voice, 10-20% opacity behind text"
+  },
+  "buttonCtaStyle": {
+    "shape": "rounded rectangle, 14px radius",
+    "fill": "#F59E0B warm amber",
+    "text": "#07111F deep navy, bold",
+    "hoverGlow": "amber outer glow",
+    "usage": "subscribe end card and thumbnail CTA chip"
+  },
+  "chapterCardStyle": {
+    "format": "number + short curiosity title (2-4 words)",
+    "example": "03 — Proof-of-Work",
+    "background": "midnight blue #0B1220, grid texture",
+    "accent": "electric blue number, teal underline sweep",
+    "transitionIn": "hard cut from talking head",
+    "transitionOut": "quick 200ms cross-dissolve into section"
+  },
+  "thumbnailStyle": {
+    "anatomy": "3-line text stack left, highlight bar on line 2, amber arrow accent, subject right, dark background with ghosted UI",
+    "background": "#07111F with faint workflow/code ghosted at 15% opacity",
+    "line1": "giant white ALL-CAPS word",
+    "line2": "electric blue #2563EB solid highlight bar, white bold text",
+    "line3": "smaller lowercase soft white",
+    "accent": "warm amber curved arrow pointing at line 2",
+    "subject": "talking head chest-up right third (or Brief-to-ZIP workflow art until footage exists)",
+    "brandMark": "Senioto mark bottom-left with soft blue glow"
+  },
+  "exportPresets": {
+    "longForm": {
+      "resolution": "1920x1080",
+      "aspectRatio": "16:9",
+      "format": "MP4",
+      "fps": "30 or source-matched",
+      "audioCodec": "AAC",
+      "voice": "primary, -14 LUFS integrated",
+      "music": "8% to 15% under voice, ducked"
+    },
+    "shorts": {
+      "resolution": "1080x1920",
+      "aspectRatio": "9:16",
+      "format": "MP4",
+      "fps": "30",
+      "audioCodec": "AAC",
+      "voice": "primary",
+      "music": "10% to 18% under voice, ducked"
+    }
+  }
+}

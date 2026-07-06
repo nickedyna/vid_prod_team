@@ -33,9 +33,9 @@ def main() -> None:
     run([sys.executable, "scripts/generate_srt.py", "--job", job])
 
     # Always fill gaps with branded placeholders so the draft renders end to end.
-    run([sys.executable, "scripts/create_placeholder_assets.py", "--job", job])
+    run([sys.executable, "scripts/create_placeholder_assets.py", "--job", job, "--platform", args.platform])
 
-    cmd = [sys.executable, "scripts/assemble_short.py", "--job", job]
+    cmd = [sys.executable, "scripts/assemble_short.py", "--job", job, "--platform", args.platform]
     if voiceover:
         cmd += ["--voiceover", voiceover]
     if args.music:
